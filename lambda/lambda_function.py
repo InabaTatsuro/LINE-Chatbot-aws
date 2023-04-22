@@ -92,16 +92,6 @@ def help_message():
     return help_txt
 
 
-# def gpt_4(language, text):
-#     response = chat_completion("gpt-4", language, text)
-#     return response
-
-
-# def gpt_3_5(language, text):
-#     response = chat_completion("gpt-3.5-turbo", text)
-#     return response
-
-
 def chat_completion(model, language, text):
     openai.api_key = YOUR_OPENAI_APIKEY
     if language == "en":
@@ -124,5 +114,4 @@ def chat_completion(model, language, text):
 
 
 if __name__ == "__main__":
-    # app.run()
     port = int(os.getenv("PORT", 5000))
