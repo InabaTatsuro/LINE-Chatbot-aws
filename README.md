@@ -6,7 +6,7 @@ pip install -r requirements.txt -t ./lambda
 cd lambda
 zip -r python.zip ./*
 ```
-python.zip を lambda あげる
+python.zip を lambda にアップロード
 
 ## 環境構築
 LINE_CHANNEL_ACCESS_TOKEN, LINE_CHANNEL_SECRET, YOUR_OPENAI_APIKEY の三種類を lambda関数 -> 設定 -> 環境変数に登録
