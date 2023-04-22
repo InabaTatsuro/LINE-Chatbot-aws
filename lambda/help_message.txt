@@ -3,5 +3,5 @@
 - gpt-4 language text
 ChatGPT(gpt-4)に text を送信します。language は ja または en です。
 
-- gpt-3.5-turbo "text"
+- gpt-3.5-turbo language "text"
 ChatGPT(gpt-3.5-turbo)に text を送信します。language は ja または en です。
