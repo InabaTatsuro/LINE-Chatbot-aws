@@ -1,0 +1,10 @@
+- h, help: ヘルプを表示します。
+
+- s "text"
+system メッセージを "text" に変更します。デフォルトは "You are a helpful assistant." です。
+
+- gpt4 "text"
+ChatGPT(GPT-4)にメッセージを送信します。
+
+- gpt3.5 "text"
+ChatGPT(GPT-3.5)にメッセージを送信します。
